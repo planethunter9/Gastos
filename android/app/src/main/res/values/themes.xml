@@ -1,0 +1,9 @@
+<resources>
+    <!-- Sempre claro: o pai é Light, e não existe values-night/ -->
+    <style name="Theme.Gastos" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#F5F7F4</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>
